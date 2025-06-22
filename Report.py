@@ -16,6 +16,7 @@ class Student:
         for mark in lis_marks:
             total_marks_obtained += mark
         return total_marks_obtained
+    
 
     def get_grade(self):
         grade = ""
